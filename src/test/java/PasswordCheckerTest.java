@@ -10,7 +10,7 @@ class PasswordCheckerTest {
     void passwordIsValid() throws Exception {
         String password = "dffdP****gngfg06788";
         passwordChecker.passwordIsValid(password);
-        assertEquals(6,passwordChecker.errorCount,"Are all the conditions met?");
+        assertEquals(passwordChecker.errors,"");
     }
 
     @Test

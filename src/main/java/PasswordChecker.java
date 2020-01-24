@@ -3,6 +3,8 @@ import org.apache.logging.log4j.Logger;
 
 public class  PasswordChecker {
 
+    String errors = "";
+
     private static final Logger logger = LogManager.getLogger(PasswordChecker.class.getName());
 
     private Validations validations = new Validations();
@@ -14,7 +16,6 @@ public class  PasswordChecker {
      * The method needs to be synchronized because we need to make sure that we are protected from the thread.
      */
     synchronized void passwordIsValid(String password) throws Exception{
-        String errors = "";
 
         if (!validations.existence(password)) {
             errors += "1. Password should exist.\n";

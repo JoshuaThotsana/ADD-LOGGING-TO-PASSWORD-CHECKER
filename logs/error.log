@@ -1,5 +1,0 @@
-[ERROR] 2019-12-12 09:54:11.419 [Thread-0] PasswordChecker - 2. Password should be longer than than 8 characters.
-[ERROR] 2019-12-12 09:54:11.428 [Thread-0] PasswordChecker - 4. Password should have at least one uppercase letter.
-[ERROR] 2019-12-12 09:54:11.429 [Thread-0] PasswordChecker - 5. Password should have at least have one digit.
-[ERROR] 2019-12-12 09:54:11.429 [Thread-0] PasswordChecker - 6. Password should have at least one special character.
-[ERROR] 2019-12-12 09:54:11.430 [main] PasswordChecker - Password is never okay if both condition 1 and 2 are not met.
